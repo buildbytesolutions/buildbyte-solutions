@@ -26,10 +26,9 @@ export const Contact = () => {
 	};
 
 	const handleSubmit = async (e) => {
-		alert()
-		e.preventDefault(process.env.INITIAL_DOMAIN);
+		e.preventDefault();
 		setButtonText("Sending...");
-		let response = await fetch(`${process.env.INITIAL_DOMAIN}/contact`, {
+		let response = await fetch(`${process.env.FETCH_FIELD}/contact`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json;charset=utf-8",
