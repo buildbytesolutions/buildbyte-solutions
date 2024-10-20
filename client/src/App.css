@@ -301,6 +301,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
+@media (max-width: 1200px) {
+  .banner .tagline {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner .tagline {
+    font-size: 12px;
+  }
+}
+
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
