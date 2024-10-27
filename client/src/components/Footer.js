@@ -13,8 +13,12 @@ export const Footer = () => {
 					<MailchimpForm />
 					<Col size={12} sm={6}>
 						<h1 className="logo_heading">BuildByte Solutions</h1>
+						<p>©Copyright 2024. All Rights Reserved</p>
 					</Col>
 					<Col size={12} sm={6} className="text-center text-sm-end">
+						<p className="contact-email">
+							<b>Email:</b> buildbytesolutions89@gmail.com
+						</p>
 						<div className="social-icon">
 							<a
 								href="https://www.linkedin.com/in/nameth-a-101108334/"
@@ -35,7 +39,6 @@ export const Footer = () => {
 								<img src={navIcon3} alt="Icon" />
 							</a>
 						</div>
-						<p>©Copyright 2024. All Rights Reserved</p>
 					</Col>
 				</Row>
 			</Container>
