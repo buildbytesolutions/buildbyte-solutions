@@ -901,3 +901,7 @@ about {
     padding: 10px 20px;
   }
 }
+
+.contact-email {
+  font-size: medium !important;
+}
