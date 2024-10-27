@@ -55,15 +55,15 @@ export const Skills = () => {
 								</div>
 								<div className="item">
 									<img src={meter2} alt="Image" />
-									<h4>eCommerce Solutions</h4>
+									<h4>Mobile App Development</h4>
 									<p>
-										Create a seamless shopping experience with secure, scalable,
-										and beautifully designed eCommerce platforms.
+										We create customized Android/IOS applications designed to
+										meet the specific needs of your business
 									</p>
 								</div>
 								<div className="item">
 									<img src={meter3} alt="Image" />
-									<h4>Web Maintenance & Support</h4>
+									<h4>Maintenance & Support</h4>
 									<p>
 										Enjoy peace of mind with our ongoing maintenance and support
 										packages.
