@@ -10,7 +10,7 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
 	const projects = [
 		{
-			title: "ShopSphere",
+			title: "BuildByte Store",
 			description:
 				"Your one-stop online store for fashion, electronics, and more, with secure payments and fast delivery",
 			imgUrl: projImg1,
@@ -26,7 +26,7 @@ export const Projects = () => {
 			siteURL: "https://buildbytesolutions.github.io/tourism-site/",
 		},
 		{
-			title: "Disney",
+			title: "Byte Tv",
 			description:
 				"Stream magical movies, shows, and stories—where every moment is pure enchantment. ✨",
 			imgUrl: projImg3,
